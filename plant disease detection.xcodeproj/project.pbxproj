@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F71F34A229266A120019A8D2 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71F34A129266A120019A8D2 /* Article.swift */; };
+		F763DDE228C2103900C0897B /* UploadImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F763DDE128C2103900C0897B /* UploadImageView.swift */; };
+		F763DDE428C2133C00C0897B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F763DDE328C2133C00C0897B /* HomeView.swift */; };
+		F77AA277292503DF005E9E85 /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77AA276292503DF005E9E85 /* TutorialView.swift */; };
+		F77AA27929250558005E9E85 /* 55578-agricultural-icon-animation.json in Resources */ = {isa = PBXBuildFile; fileRef = F77AA27829250558005E9E85 /* 55578-agricultural-icon-animation.json */; };
+		F77AA27D29254288005E9E85 /* CardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77AA27C29254288005E9E85 /* CardDetailView.swift */; };
+		F77AA27F292648E1005E9E85 /* 95530-password.json in Resources */ = {isa = PBXBuildFile; fileRef = F77AA27E292648E1005E9E85 /* 95530-password.json */; };
+		F7A556DB29153C8500FED88C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A556DA29153C8500FED88C /* LoginView.swift */; };
+		F7AE932D2922300C00490E3D /* ImagePredictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AE932C2922300C00490E3D /* ImagePredictor.swift */; };
+		F7AE932F292230CC00490E3D /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AE932E292230CC00490E3D /* CGImagePropertyOrientation+UIImageOrientation.swift */; };
+		F7AE93312922310200490E3D /* VNClassificationObservation+confidenceString.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AE93302922310200490E3D /* VNClassificationObservation+confidenceString.swift */; };
+		F7AE93332922317D00490E3D /* Plant.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F7AE93322922317D00490E3D /* Plant.mlmodel */; };
+		F7AE9337292232A000490E3D /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AE9336292232A000490E3D /* ImagePicker.swift */; };
+		F7AE933D29231EA500490E3D /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AE933C29231EA500490E3D /* LottieView.swift */; };
+		F7AE934029231F8300490E3D /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = F7AE933F29231F8300490E3D /* Lottie */; };
+		F7AE9354292338D600490E3D /* 35269-the-guy-with-the-cat-at-the-computer.json in Resources */ = {isa = PBXBuildFile; fileRef = F7AE9353292338D600490E3D /* 35269-the-guy-with-the-cat-at-the-computer.json */; };
+		F7AE935829236A9100490E3D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AE935729236A9100490E3D /* CardView.swift */; };
+		F7B3179C2921199200BCDB30 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B3179B2921199200BCDB30 /* ProfileView.swift */; };
+		F7D0A34328BA612A00613E8A /* plant_disease_detectionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D0A34228BA612A00613E8A /* plant_disease_detectionApp.swift */; };
+		F7D0A34528BA612A00613E8A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D0A34428BA612A00613E8A /* ContentView.swift */; };
+		F7D0A34728BA612B00613E8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7D0A34628BA612B00613E8A /* Assets.xcassets */; };
+		F7D0A34A28BA612B00613E8A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7D0A34928BA612B00613E8A /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F71F34A129266A120019A8D2 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		F71F34A529266F2D0019A8D2 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		F71F34A629266F2D0019A8D2 /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		F71F34A729266F6C0019A8D2 /* plant-disease-detection-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "plant-disease-detection-Info.plist"; sourceTree = SOURCE_ROOT; };
+		F763DDE128C2103900C0897B /* UploadImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadImageView.swift; sourceTree = "<group>"; };
+		F763DDE328C2133C00C0897B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F77AA276292503DF005E9E85 /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
+		F77AA27829250558005E9E85 /* 55578-agricultural-icon-animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "55578-agricultural-icon-animation.json"; sourceTree = "<group>"; };
+		F77AA27C29254288005E9E85 /* CardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailView.swift; sourceTree = "<group>"; };
+		F77AA27E292648E1005E9E85 /* 95530-password.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "95530-password.json"; sourceTree = "<group>"; };
+		F7A556DA29153C8500FED88C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F7AE932C2922300C00490E3D /* ImagePredictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePredictor.swift; sourceTree = "<group>"; };
+		F7AE932E292230CC00490E3D /* CGImagePropertyOrientation+UIImageOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGImagePropertyOrientation+UIImageOrientation.swift"; sourceTree = "<group>"; };
+		F7AE93302922310200490E3D /* VNClassificationObservation+confidenceString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VNClassificationObservation+confidenceString.swift"; sourceTree = "<group>"; };
+		F7AE93322922317D00490E3D /* Plant.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Plant.mlmodel; sourceTree = "<group>"; };
+		F7AE9336292232A000490E3D /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		F7AE933C29231EA500490E3D /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		F7AE9353292338D600490E3D /* 35269-the-guy-with-the-cat-at-the-computer.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "35269-the-guy-with-the-cat-at-the-computer.json"; sourceTree = "<group>"; };
+		F7AE935729236A9100490E3D /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		F7B3179B2921199200BCDB30 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		F7D0A33F28BA612A00613E8A /* plant disease detection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "plant disease detection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D0A34228BA612A00613E8A /* plant_disease_detectionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plant_disease_detectionApp.swift; sourceTree = "<group>"; };
+		F7D0A34428BA612A00613E8A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F7D0A34628BA612B00613E8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7D0A34928BA612B00613E8A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7D0A33C28BA612A00613E8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7AE934029231F8300490E3D /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F71F34A329266F130019A8D2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F71F34A429266F1D0019A8D2 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F71F34A429266F1D0019A8D2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F71F34A529266F2D0019A8D2 /* Nunito-Bold.ttf */,
+				F71F34A629266F2D0019A8D2 /* Nunito-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		F7894DA829196EC1000BC7A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F7D0A34428BA612A00613E8A /* ContentView.swift */,
+				F763DDE328C2133C00C0897B /* HomeView.swift */,
+				F763DDE128C2103900C0897B /* UploadImageView.swift */,
+				F7A556DA29153C8500FED88C /* LoginView.swift */,
+				F7B3179B2921199200BCDB30 /* ProfileView.swift */,
+				F7AE933C29231EA500490E3D /* LottieView.swift */,
+				F7AE935729236A9100490E3D /* CardView.swift */,
+				F77AA276292503DF005E9E85 /* TutorialView.swift */,
+				F77AA27C29254288005E9E85 /* CardDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F7AE93352922325300490E3D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F7AE932E292230CC00490E3D /* CGImagePropertyOrientation+UIImageOrientation.swift */,
+				F7AE93302922310200490E3D /* VNClassificationObservation+confidenceString.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F7AE935B29236D7000490E3D /* ML */ = {
+			isa = PBXGroup;
+			children = (
+				F7AE93322922317D00490E3D /* Plant.mlmodel */,
+				F7AE932C2922300C00490E3D /* ImagePredictor.swift */,
+			);
+			path = ML;
+			sourceTree = "<group>";
+		};
+		F7AE935C29236D8800490E3D /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				F71F34A129266A120019A8D2 /* Article.swift */,
+				F7AE9336292232A000490E3D /* ImagePicker.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		F7D0A33628BA612A00613E8A = {
+			isa = PBXGroup;
+			children = (
+				F7D0A34128BA612A00613E8A /* plant disease detection */,
+				F7D0A34028BA612A00613E8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7D0A34028BA612A00613E8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7D0A33F28BA612A00613E8A /* plant disease detection.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7D0A34128BA612A00613E8A /* plant disease detection */ = {
+			isa = PBXGroup;
+			children = (
+				F71F34A729266F6C0019A8D2 /* plant-disease-detection-Info.plist */,
+				F71F34A329266F130019A8D2 /* Resources */,
+				F7AE935C29236D8800490E3D /* Util */,
+				F7AE935B29236D7000490E3D /* ML */,
+				F7AE93352922325300490E3D /* Extensions */,
+				F7894DA829196EC1000BC7A8 /* View */,
+				F7D0A34228BA612A00613E8A /* plant_disease_detectionApp.swift */,
+				F7D0A34628BA612B00613E8A /* Assets.xcassets */,
+				F77AA27829250558005E9E85 /* 55578-agricultural-icon-animation.json */,
+				F7AE9353292338D600490E3D /* 35269-the-guy-with-the-cat-at-the-computer.json */,
+				F77AA27E292648E1005E9E85 /* 95530-password.json */,
+				F7D0A34828BA612B00613E8A /* Preview Content */,
+			);
+			path = "plant disease detection";
+			sourceTree = "<group>";
+		};
+		F7D0A34828BA612B00613E8A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F7D0A34928BA612B00613E8A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7D0A33E28BA612A00613E8A /* plant disease detection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7D0A34D28BA612B00613E8A /* Build configuration list for PBXNativeTarget "plant disease detection" */;
+			buildPhases = (
+				F7D0A33B28BA612A00613E8A /* Sources */,
+				F7D0A33C28BA612A00613E8A /* Frameworks */,
+				F7D0A33D28BA612A00613E8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "plant disease detection";
+			packageProductDependencies = (
+				F7AE933F29231F8300490E3D /* Lottie */,
+			);
+			productName = "plant disease detection";
+			productReference = F7D0A33F28BA612A00613E8A /* plant disease detection.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7D0A33728BA612A00613E8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					F7D0A33E28BA612A00613E8A = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = F7D0A33A28BA612A00613E8A /* Build configuration list for PBXProject "plant disease detection" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7D0A33628BA612A00613E8A;
+			packageReferences = (
+				F7AE933E29231F8300490E3D /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = F7D0A34028BA612A00613E8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7D0A33E28BA612A00613E8A /* plant disease detection */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7D0A33D28BA612A00613E8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7AE9354292338D600490E3D /* 35269-the-guy-with-the-cat-at-the-computer.json in Resources */,
+				F7D0A34A28BA612B00613E8A /* Preview Assets.xcassets in Resources */,
+				F7D0A34728BA612B00613E8A /* Assets.xcassets in Resources */,
+				F77AA27929250558005E9E85 /* 55578-agricultural-icon-animation.json in Resources */,
+				F77AA27F292648E1005E9E85 /* 95530-password.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7D0A33B28BA612A00613E8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77AA277292503DF005E9E85 /* TutorialView.swift in Sources */,
+				F7D0A34528BA612A00613E8A /* ContentView.swift in Sources */,
+				F7D0A34328BA612A00613E8A /* plant_disease_detectionApp.swift in Sources */,
+				F7AE93312922310200490E3D /* VNClassificationObservation+confidenceString.swift in Sources */,
+				F763DDE428C2133C00C0897B /* HomeView.swift in Sources */,
+				F7A556DB29153C8500FED88C /* LoginView.swift in Sources */,
+				F7AE932F292230CC00490E3D /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */,
+				F7AE93332922317D00490E3D /* Plant.mlmodel in Sources */,
+				F7AE935829236A9100490E3D /* CardView.swift in Sources */,
+				F7AE9337292232A000490E3D /* ImagePicker.swift in Sources */,
+				F7AE932D2922300C00490E3D /* ImagePredictor.swift in Sources */,
+				F7B3179C2921199200BCDB30 /* ProfileView.swift in Sources */,
+				F71F34A229266A120019A8D2 /* Article.swift in Sources */,
+				F77AA27D29254288005E9E85 /* CardDetailView.swift in Sources */,
+				F763DDE228C2103900C0897B /* UploadImageView.swift in Sources */,
+				F7AE933D29231EA500490E3D /* LottieView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F7D0A34B28BA612B00613E8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F7D0A34C28BA612B00613E8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7D0A34E28BA612B00613E8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "plant\\ disease\\ detection/Preview\\ Content";
+				DEVELOPMENT_TEAM = VJN573YV84;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "plant-disease-detection-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rambalaji.plant-disease-detection";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7D0A34F28BA612B00613E8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "plant\\ disease\\ detection/Preview\\ Content";
+				DEVELOPMENT_TEAM = VJN573YV84;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "plant-disease-detection-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rambalaji.plant-disease-detection";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7D0A33A28BA612A00613E8A /* Build configuration list for PBXProject "plant disease detection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7D0A34B28BA612B00613E8A /* Debug */,
+				F7D0A34C28BA612B00613E8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7D0A34D28BA612B00613E8A /* Build configuration list for PBXNativeTarget "plant disease detection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7D0A34E28BA612B00613E8A /* Debug */,
+				F7D0A34F28BA612B00613E8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F7AE933E29231F8300490E3D /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F7AE933F29231F8300490E3D /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F7AE933E29231F8300490E3D /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F7D0A33728BA612A00613E8A /* Project object */;
+}
